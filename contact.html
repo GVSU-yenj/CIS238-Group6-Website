@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--This webpage was created by Sydney Brougham, Jon Yen, Brendan Childs, and William Wooster-->
+
+<html lang="en">
+<head>
+	<title>Contact | Sigma Pi Fraternity GVSU</title>
+	<link rel="stylesheet" href="mystyles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<img src="logo.png" alt="Logo of Sigma Pi" height="150" width="400">
+			<h1>Sigma Pi Fraternity Grand Valley State University</h1>
+		</header>		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="Philanthropy.html">Philanthropy</a></li>
+				<li><a href="Events.html">Events</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>Contact Us</h2>
+			<p>Interested in learning more or becoming a member? Get in touch! Submit the form below to contact an E-Board member today.</p>
+			<!--if we have an actual phone number, put it here-->
+			<form method="post" action="feedback.php"><!-- Start Form -->
+				<fieldset id="personal-info">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="firstname" placeholder="First Name" required>
+					<input type="text" id="name" name="lastname" placeholder="Last Name" required>
+					
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" placeholder="e.g. email@example.com">
+					
+					<label for="phone">Phone:</label>
+					<input type="text" id="phone" name="phone" placeholder="(XXX)XXX-XXXX">				
+				</fieldset>
+				<fieldset>
+					<label for="subject">Message Subject:</label>
+					<select>
+						<option value="join">Becoming a member</option>
+						<option value="events">Upcoming events</option>
+						<option value="other" selected>Other</option>
+					</select>
+					
+					<label for="message">Message:</label>
+					<textarea name="message" rows="5" cols="35" placeholder="Enter your message here."></textarea>
+				</fieldset>
+				<fieldset id="buttons">
+					<input type="submit" id="submit" value="Submit Form" class="btn">
+					<input type="reset" id="reset" value="Reset Form" class="btn">
+				</fieldset>
+				
+				<!-- Still needs: visual cues for required fields, a state drop-down menu with MI default, check boxes and/or radio buttons -->
+				
+			</form>
+		</main>
+
+		<footer>
+			<p>Follow Us on Twitter and Instagram:SigmaPiGVSU and check out our national page <a href="https://sigmapi.org/" target="_blank">SigmaPi.org</a></p>
+		</footer>
+	
+	</div>
+</body>
+</html>
