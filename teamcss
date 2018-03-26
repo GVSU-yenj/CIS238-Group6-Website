@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/* Team 6 styles sheet Sydney Brougham, Jon Yen, Brendan Childs, William Wooster*/
+
+/* Mobile viewport*/
+
+body { 
+    background-color: #F1F1F2; 
+    font-family: 'Merriweather', serif;
+    
+}
+
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    width: 350px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav li a {
+    color: #FAA61A;
+    text-decoration: none;
+}
+nav li {
+    list-style-type: none;
+    border-radius: 2em;
+    margin: .2em;
+    background-color: #662E6B;
+    padding: .6em 0em .6em 0em;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #C9C9C9;
+    color: #662E6B;
+    padding: .2em;
+    font-size: .7em;
+}
+
+footer a {
+    color: #662E6B;
+    font-weight: bold;
+}
+
+/*******************Tablet viewport*****************************/
+media only screen and (min-width: 660px;){
+
+.mobile{
+    display: none;
+    
+}    
+
+nav li{
+    display: inline;
+    
+}
+}
+    
+}
+
+/****************desktop viewport****************/
+}
+
+
